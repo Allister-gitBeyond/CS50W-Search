@@ -42,9 +42,16 @@ body            {       height: 100vh;
 /*  Navigation  */
 
 .nav            {       height: 3.5em;       
-                        width: 100%;
+                        /* width: 100%; */
 
-                        background-color: silver;   }
+                        justify-content: center;
+
+                        background-color: silver;       }
+
+
+/* .nav li         {       display: flex;
+
+                        flex-direction: row;              } */
 
 
 
