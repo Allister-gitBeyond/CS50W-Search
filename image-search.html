@@ -29,18 +29,29 @@
         </div>
 
         <div class="banner">
+            <div>
+                <h2 class="title">Image Search</h2>
+            </div>
+
             <img class="googImg" src="static\google.jpg.jpg">
         </div>
 
         <div class="search">
-            <form class="forms" action="https://images.google.com/imghp">
+            <!-- <form class="forms" action="http://images.google.com/images">
                 <input type="text" name="q">
-                <!-- <input type="text" name="q" value aria-label="Search"> -->
-                <!-- <input type="hidden" > -->
+                <input type="submit">
+            </form> -->
 
-                <input type="hidden" name="search_type" value="images">
-                <input type="submit" value="Google Search">
+            <form class="forms" action="https://www.google.com/search">
+                <input class="search_bar" type="text" name="q">
+                <input type="hidden" name="tbm" value="isch">
+                                     <!--  ^^^                                                                                                       -->
+                                     <!--  Reference to the filter applied on search parameters when sending http GET request through Google Search  -->
+
+                <input class="submit_button" type="submit">
             </form>
         </div>
- GBNUJ;/'~
-@:lK,M
+
+        <script src=”https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js” integrity=”sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ” crossorigin=”anonymous”></script>
+    </body>
+</html>
